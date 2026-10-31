@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Bottle Quest",
+    "slug": "bottle-quest",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#100D20",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.example.bottlequest"
+    },
+    "android": {
+      "package": "com.example.bottlequest"
+    },
+    "plugins": [
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-5956206554446103~2235877486",
+          "iosAppId": "ca-app-pub-3940256099942544~1458002511"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "42279692-07f0-4596-a3cf-b9322de27bdd"
+      }
+    }
+  }
+}
